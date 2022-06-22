@@ -33,3 +33,9 @@ function test(...args: any[] | [string, unknown, number] | [string, number, unkn
 test('string', 3, 4, 5)
 test('string', 8, 9)
 ```
+
+## output
+```
+asdf 3 4 5
+asdf undefined 4 5
+```
